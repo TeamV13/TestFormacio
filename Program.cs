@@ -17,9 +17,9 @@ namespace TestFormacio
             calculos.CalcularDtoComp(100,(decimal)55, (decimal)5, (decimal)2);
             Console.WriteLine(">>>> 1era Seccio - II");
             Console.WriteLine(calculos.CalcularDtoComp(100,'+',"coste"));
-            Console.WriteLine(calculos.CalcularDtoComp(75.02m,'-',"coste"));
+            Console.WriteLine(calculos.CalcularDtoComp(75.02m,'-',"valor"));
             Console.WriteLine("\n>>>> 1era Seccio - III");
-            calculos.matCalcularDtoComp(new decimal[] { (decimal)55, (decimal)5, (decimal)2 });
+            calculos.matCalcularDtoComp(new decimal[] { (decimal)55, (decimal)5, (decimal)2, (decimal)7 });
 
             Console.WriteLine("\n>>>> 2ona Seccio");
             Utils codAlb2PTL = new Utils();

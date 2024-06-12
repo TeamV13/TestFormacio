@@ -60,9 +60,7 @@ namespace TestFormacio
                 Console.WriteLine("{0} es {1}% ", PrecioNeto.ToString("F2"), PtgeDtoCom.ToString("F2"));
             }
 
-
         }
-
 
         public string Conversion2PTL(string prmCodAlb = "")
         {
