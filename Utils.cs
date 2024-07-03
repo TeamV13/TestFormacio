@@ -54,7 +54,7 @@ namespace TestFormacio
                 PtgeDtoCom = (Precio - PrecioNeto) / Precio * 100;
                 int a = 10 / value;
             }
-            catch (Exception ex) { }
+            catch (Exception ex) {  }
             finally
             {
                 Console.WriteLine("{0} es {1}% ", PrecioNeto.ToString("F2"), PtgeDtoCom.ToString("F2"));
